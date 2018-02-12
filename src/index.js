@@ -1,3 +1,4 @@
+'use strict'; 
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
@@ -8,8 +9,6 @@ import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
 const API_KEY = 'AIzaSyBPmg0Y9U4NkvpU9bNb_dX8of5-CXadTp8';
-
-
 
 class App extends Component {
   constructor(props) {
